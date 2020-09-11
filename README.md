@@ -29,13 +29,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+react is a library that allows elements on the page to be changed without the entire page having to be reloaded.
 1. Describe component state.
-
+a component state is basically setting up a variable along with a function that changes that variable whenever it is called.
 1. Describe props.
-
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-
+  props are essentially like arguments to a function.
+1. What are side effects, and how do you  sync effects in a React component to changes of certain state or props?
+side effects would be any effect other than the main effect in the return statement
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
@@ -56,15 +56,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use ONE of the following APIs:
+- [x] Use ONE of the following APIs:
   - [Star Wars API](https://swapi.dev/)
   - [Alternate Star Wars API](https://swapi.py4e.com/)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
   - [The RESTful Pokémon API](https://pokeapi.co/) (**harder**)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [x] Use the documentation and Google to learn how to fetch characters from your API.
+- [x] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [x] Set the list of characters into state.
+- [x] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
@@ -72,8 +72,8 @@ Your finished project must include all of the following requirements:
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
 - [ ] Consistent quotation usage.
 - [ ] Spell-check.
 - [ ] Schedule time to review, refine and reassess your work.
